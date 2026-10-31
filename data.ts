@@ -1,5 +1,5 @@
 // Server-side data fetchers used by Server Components.
-import { createClient } from './supabase/server';
+import { createClient } from './src/lib/supabase/server';
 import type { SiteSettings, Product, Category, Offer, PageContent } from './types';
 
 const FALLBACK_SETTINGS: SiteSettings = {
